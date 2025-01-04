@@ -1,0 +1,10 @@
+package com.example.binding;
+
+public class Adress {
+	public void address()
+
+	{
+		System.out.println("address");
+	}
+
+}

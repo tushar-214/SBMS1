@@ -1,0 +1,13 @@
+package com.example.service;
+
+import org.springframework.stereotype.Service;
+
+import jakarta.websocket.server.ServerEndpoint
+@Service
+public class StudentSerImpl implements StudentSer {
+@Override
+public void studentPollForGame() {
+	// TODO Auto-generated method stub
+	
+}
+}

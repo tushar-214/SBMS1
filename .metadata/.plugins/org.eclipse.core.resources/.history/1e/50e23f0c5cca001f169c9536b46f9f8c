@@ -1,0 +1,9 @@
+package com.example.service;
+
+public class StudentSerImpl implements StudentSer {
+@Override
+public void studentPollForGame() {
+	// TODO Auto-generated method stub
+	
+}
+}

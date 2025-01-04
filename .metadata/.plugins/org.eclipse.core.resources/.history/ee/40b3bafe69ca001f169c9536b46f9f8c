@@ -1,0 +1,9 @@
+package com.example.binding;
+
+public class Teacher {
+	private int tid;
+	private String tName;
+	private Student student;	
+	
+
+}

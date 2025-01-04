@@ -1,0 +1,10 @@
+package com.example.binding;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails.Address;
+
+public class Student {
+	@Autowired
+	Address address;
+
+}

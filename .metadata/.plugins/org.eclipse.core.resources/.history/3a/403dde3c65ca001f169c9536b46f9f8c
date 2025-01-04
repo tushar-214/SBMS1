@@ -1,0 +1,10 @@
+package com.example.service;
+
+public class MumbaiPrimerDemoImpl implements PrimerDemoServ {
+
+	@Override
+	public String bestCity() {
+		// TODO Auto-generated method stub
+		return "mumbai is the best city";
+	}
+}
