@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;AutowiredDemo1&apos;" deleteContents="true" description="Delete resource &apos;AutowiredDemo1&apos;" element1="/AutowiredDemo1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1735899401159"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;AutowiredDemo1&apos;" deleteContents="true" description="Delete resource &apos;AutowiredDemo1&apos;" element1="/AutowiredDemo1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1735899401159"/>&#x0A;<refactoring comment="Delete resource &apos;springDataJPA&apos;" deleteContents="true" description="Delete resource &apos;springDataJPA&apos;" element1="/springDataJPA" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1735978362709"/>
 </session>
