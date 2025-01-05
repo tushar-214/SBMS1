@@ -2,6 +2,7 @@ package com.example.service;
 
 import java.util.List;
 
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 
 import com.example.entity.Mobile;
@@ -12,4 +13,7 @@ public interface mobileService {
     public Mobile getMobileById(Integer id);
     public String deleteByid(Integer id);
     public String updatedbyId(Integer id,Mobile mb);
+    List<String> showMobileNames();
+    List<Mobile> findMobilesByPrice( int price);
+	
 }

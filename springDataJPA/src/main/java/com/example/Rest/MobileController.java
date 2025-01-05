@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.example.entity.Mobile;
 import com.example.service.mobileService;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -59,6 +58,18 @@ public class MobileController {
 	ResponseEntity<String> updateById(@PathVariable("id") Integer id, @RequestBody Mobile mb) {
 		String msg = ms.updatedbyId(id, mb);
 		return new ResponseEntity<String>(msg, HttpStatus.OK);
+	}
+
+	@GetMapping("/mobileNames")
+	ResponseEntity<List<String>> getMobilesName() {
+		List<String> data = ms.showMobileNames();
+		return new ResponseEntity<List<String>>(data, HttpStatus.OK);
+	}
+
+	@GetMapping("/mobileprice/{price}")
+	ResponseEntity<List<Mobile>> getMobilePriceSorting(@PathVariable("price") int price) {
+		List<Mobile> mobiledata = ms.findMobilesByPrice(price);
+		return new ResponseEntity<List<Mobile>>(mobiledata, HttpStatus.OK);
 	}
 
 }

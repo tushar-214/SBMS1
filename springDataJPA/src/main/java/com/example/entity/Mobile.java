@@ -1,5 +1,6 @@
 package com.example.entity;
 
+import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.data.annotation.CreatedBy;
 
 import jakarta.persistence.Entity;
@@ -14,7 +15,7 @@ public class Mobile {
 	private int mid;
 	private String mobileName;
 	private int price;
-	@CreatedBy
+	@CreationTimestamp
 	private String createdBy;
 	public int getMid() {
 		return mid;

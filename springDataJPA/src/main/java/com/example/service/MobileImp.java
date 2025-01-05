@@ -49,4 +49,16 @@ public class MobileImp implements mobileService {
 		return "data is updated successfuly";
 	}
 
+	@Override
+	public List<String> showMobileNames() {
+		List<String> mobiledat = mobileRepository.showMobileNames();
+		return mobiledat;
+	}
+
+	@Override
+	public List<Mobile> findMobilesByPrice(int price) {
+		List<Mobile> mobilePrice = mobileRepository.findMobilesByPrice(price);
+		return mobilePrice;
+	}
+
 }
