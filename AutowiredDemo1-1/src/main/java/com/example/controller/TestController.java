@@ -18,8 +18,7 @@ public class TestController {
 
 		int id = techer.getTid();
 		String name = techer.gettName();
-		Student data = techer.getStudent();
-		return " id = " + id +"name = " +name +" Data :: "+data ;
+		return " id = " + id +"name = " +name  ;
 
 	}
 
